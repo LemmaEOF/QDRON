@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "gay.lemmaeof.qdron.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+      "MixinShapedRecipe",
+      "MixinSmithingRecipe"
+  ]
+}

@@ -1,25 +1,20 @@
 {
   "schema_version": 1,
   "quilt_loader": {
-    "group": "io.github.cottonmc",
-    "id": "starter",
+    "group": "gay.lemmaeof",
+    "id": "qdron",
     "version": "${version}",
     "metadata": {
-      "name": "Fabric Starter",
+      "name": "QDRON",
       "icon": "assets/starter/icon.png",
-      "description": "Template for starting out Fabric mods",
+      "description": "Quick & Dirty Recipe Output NBT",
       "license": "MIT",
       "contact": {
-        "sources": "https://github.com/CottonMC/FabricStarter"
+        "sources": "https://github.com/LemmaEOF/QDRON"
       }
     },
     "intermediate_mappings": "net.fabricmc:intermediary",
     "environment": "*",
-    "entrypoints": {
-      "init": [
-        "io.github.cottonmc.starter.FabricStarter"
-      ]
-    },
     "depends": [
       {
         "id": "quilt_loader",
@@ -27,5 +22,5 @@
       }
     ]
   },
-  "mixin": "mixins.starter.json"
+  "mixin": "mixins.qdron.json"
 }
