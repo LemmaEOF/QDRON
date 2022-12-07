@@ -14,13 +14,7 @@
       }
     },
     "intermediate_mappings": "net.fabricmc:intermediary",
-    "environment": "*",
-    "depends": [
-      {
-        "id": "quilt_loader",
-        "versions": ">=0.17.0-"
-      }
-    ]
+    "environment": "*"
   },
   "mixin": "mixins.qdron.json"
 }

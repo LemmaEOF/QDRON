@@ -1,0 +1,16 @@
+{
+    "schemaVersion": 1,
+    "id": "qdron",
+    "version": "${version}",
+    "name": "QDRON",
+    "description": "Quick & Dirty Recipe Output NBT",
+    "contact": {
+        "sources": "https://git.sleeping.town/LemmaEOF/QDRON"
+    },
+    "license": "MIT",
+    "icon": "assets/qdron/icon.png",
+    "environment": "*",
+    "mixins": [
+        "mixins.qdron.json"
+    ]
+}
